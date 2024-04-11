@@ -50,7 +50,7 @@ If everything went OK, you can now, finally, run build AeonG binary and client b
 
 ### Run
 
-After the compilation, you can run AeonG
+After the compilation, you can run AeonG as follows:
 
     ./memgraph
 
@@ -206,7 +206,7 @@ We inherit the configuration settings from Memgraph, thus supporting all configu
 |` --bolt-port`       | Port on which the Bolt server should listen.       |
 |`--data-directory`|Path to directory in which to save all permanent data.|
 | `--data-recovery-on-startup` | Facilitates recovery of one or more individual databases and their contents during startup. Replaces `--storage-recover-on-startup`|
-| -`-storage-gc-cycle-sec`       | Storage garbage collector interval (in seconds).       | 
+| `--storage-gc-cycle-sec`       | Storage garbage collector interval (in seconds).       | 
 |`--storage-recover-on-startup`| Deprecated and replaced with the `--data_recovery_on_startup` flag. Controls whether the storage recovers persisted data on startup. |
 |`--storage-properties-on-edges`| Controls whether edges have properties. |
 |`--storage-snapshot-interval-sec`| Storage snapshot creation interval (in seconds). Set to 0 to disable periodic snapshot creation. |
